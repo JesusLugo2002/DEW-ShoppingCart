@@ -19,8 +19,8 @@ onMounted(async () => {
 <template>
   <h1>Shop</h1>
   <hr />
-  <h2>All videogames</h2>
-  <ul class="list-group">
-    <ProductItem v-for="product in products" :name="product.name" :image="product.image" :price="product.price" />
+  <ul class="list-group list-group-flush">
+    <ProductItem v-for="product in products" :name="product.name" :image="product.image" :price="product.price"
+      :developer="product.developer" />
   </ul>
 </template>
