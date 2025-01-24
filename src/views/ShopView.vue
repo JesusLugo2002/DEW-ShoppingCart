@@ -20,7 +20,12 @@ onMounted(async () => {
   <h1>Shop</h1>
   <hr />
   <ul class="list-group list-group-flush">
-    <ProductItem v-for="product in products" :name="product.name" :image="product.image" :price="product.price"
-      :developer="product.developer" />
+    <ProductItem
+      v-for="product in products"
+      :name="product.name"
+      :image="product.image"
+      :price="product.price"
+      :developer="product.developer"
+    />
   </ul>
 </template>
