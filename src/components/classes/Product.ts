@@ -4,4 +4,6 @@ export interface Videogame {
   quantity: number
   price: number
   image: string
+  developer: string
+  year: number
 }
