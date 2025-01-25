@@ -2,7 +2,7 @@
   {
     "id": 1,
     "name": "Sekiro: Shadows Die Twice",
-    "quantity": 10,
+    "stock": 0,
     "price": 30,
     "image": "img/sekiro.webp",
     "developer": "FromSoftware",
@@ -11,7 +11,7 @@
   {
     "id": 2,
     "name": "Don't Starve",
-    "quantity": 20,
+    "stock": 20,
     "price": 60,
     "image": "img/dont-starve.webp",
     "developer": "Klei Entertainment",
@@ -20,7 +20,7 @@
   {
     "id": 3,
     "name": "Hollow Knight",
-    "quantity": 30,
+    "stock": 30,
     "price": 15,
     "image": "img/hollow-knight.webp",
     "developer": "Team Cherry",
@@ -29,7 +29,7 @@
   {
     "id": 4,
     "name": "Inscryption",
-    "quantity": 15,
+    "stock": 0,
     "price": 30,
     "image": "img/inscryption.webp",
     "developer": "Daniel Mullins",
@@ -38,7 +38,7 @@
   {
     "id": 5,
     "name": "Stardew Valley",
-    "quantity": 25,
+    "stock": 25,
     "price": 15,
     "image": "img/stardew-valley.webp",
     "developer": "ConcernedApe",
@@ -47,7 +47,7 @@
   {
     "id": 6,
     "name": "The Textorcist",
-    "quantity": 40,
+    "stock": 40,
     "price": 15,
     "image": "img/textorcist.webp",
     "developer": "Morbidware",
@@ -56,7 +56,7 @@
   {
     "id": 7,
     "name": "Baldur's Gate 3",
-    "quantity": 1,
+    "stock": 0,
     "price": 60,
     "image": "img/baldurs-gate.webp",
     "developer": "Larian Studios",
@@ -65,7 +65,7 @@
   {
     "id": 8,
     "name": "Red Dead Redemption 2",
-    "quantity": 5,
+    "stock": 5,
     "price": 30,
     "image": "img/rdr2.webp",
     "developer": "Rockstar Games",
@@ -74,7 +74,7 @@
   {
     "id": 9,
     "name": "Balatro",
-    "quantity": 20,
+    "stock": 0,
     "price": 20,
     "image": "img/balatro.webp",
     "developer": "LocalThunk",
@@ -83,7 +83,7 @@
   {
     "id": 10,
     "name": "Enter the Gungeon",
-    "quantity": 10,
+    "stock": 10,
     "price": 15,
     "image": "img/enter-the-gungeon.webp",
     "developer": "Dodge Roll",

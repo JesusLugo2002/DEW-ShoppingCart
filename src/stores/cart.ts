@@ -1,30 +1,37 @@
 import { defineStore } from 'pinia'
-import type { Videogame } from '@/components/classes/Product'
+import type { CartItem } from '@/components/classes/Product'
 
-const useCartStore = defineStore('cart', {
+export const useCartStore = defineStore('cart', {
   state: () => ({
-    products: [] as Videogame[],
+    products: [] as CartItem[],
   }),
 
   getters: {
     totalValue: (state) => {
       return state.products.reduce((result, product) => {
-        return result + product.price * product.quantity
+        return result + product.price * product.units
       }, 0)
+    },
+    isEmpty: (state) => {
+      return state.products.length == 0
     },
   },
 
   actions: {
-    addProduct(product: Videogame): void {
+    addProduct(product: CartItem): void {
       this.products.push(product)
     },
     removeProduct(id: number): void {
-      this.products = this.products.filter((product: Videogame) => product.id !== id)
+      this.products = this.products.filter((product: CartItem) => product.id !== id)
     },
-    updateQuantity(id: number, quantity: number): void {
-      const index = this.products.findIndex((product: Videogame) => product.id === id)
+    updateQuantity(id: number, units: number, adding: boolean = false): void {
+      const index = this.products.findIndex((product: CartItem) => product.id === id)
       if (index > -1) {
-        this.products[index].quantity = quantity
+        if (adding) {
+          this.products[index].units += units
+        } else {
+          this.products[index].units = units
+        }
       }
     },
     emptyCart(): void {
