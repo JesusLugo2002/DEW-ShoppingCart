@@ -34,8 +34,8 @@ export function useCart() {
 
   function getIGIC(): number {
     const IGIC = 0.07
-    const subtotal = getSubtotal()
-    return subtotal * IGIC
+    const result = IGIC * getSubtotal()
+    return Number(result.toFixed(2))
   }
 
   function addProduct(product: Videogame, amount: number = 1) {

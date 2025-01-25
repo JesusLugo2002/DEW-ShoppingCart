@@ -3,7 +3,6 @@ import CartItem from '@/components/CartItem.vue'
 import { useCart } from '@/composables/useCart'
 
 const cart = useCart()
-const products = cart.getProducts()
 </script>
 
 <template>
@@ -22,7 +21,7 @@ const products = cart.getProducts()
           </tr>
         </thead>
         <tbody>
-          <CartItem v-for="(item, index) in products" :item="item" :key="index" />
+          <CartItem v-for="(item, index) in cart.getProducts()" :item="item" :key="index" />
         </tbody>
       </table>
     </div>

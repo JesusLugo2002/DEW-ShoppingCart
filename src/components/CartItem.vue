@@ -11,10 +11,12 @@ const cart = useCart()
     <td><img :src="item.image" :alt="item.name + ' cover'" width="64" /></td>
     <td class="fw-bold">{{ item.name }}</td>
     <td class="text-success fw-bold">{{ item.price }}€</td>
-    <td>{{ item.units }}</td>
+    <td>
+      {{ item.units }}
+    </td>
     <td class="text-success fw-bold">{{ item.price * item.units }}€</td>
     <td>
-      <button class="btn btn-danger w-100" @click="cart.removeProduct(reactive(item))">
+      <button class="btn btn-danger w-100" @click="cart.removeProduct(item)">
         Remove
       </button>
     </td>
