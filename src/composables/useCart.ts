@@ -55,5 +55,18 @@ export function useCart() {
     store.emptyCart()
   }
 
-  return { getProducts, addProduct, getSubtotal, getIGIC, removeProduct, emptyCart, getIsEmpty }
+  function updateQuantity(id: number, units: number) {
+    store.updateQuantity(id, units)
+  }
+
+  return {
+    getProducts,
+    addProduct,
+    getSubtotal,
+    getIGIC,
+    removeProduct,
+    emptyCart,
+    getIsEmpty,
+    updateQuantity,
+  }
 }
