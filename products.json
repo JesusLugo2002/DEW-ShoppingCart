@@ -1,0 +1,92 @@
+[
+  {
+    "id": 1,
+    "name": "Sekiro: Shadows Die Twice",
+    "stock": 0,
+    "price": 30,
+    "image": "img/sekiro.webp",
+    "developer": "FromSoftware",
+    "year": 2019
+  },
+  {
+    "id": 2,
+    "name": "Don't Starve",
+    "stock": 20,
+    "price": 60,
+    "image": "img/dont-starve.webp",
+    "developer": "Klei Entertainment",
+    "year": 2013
+  },
+  {
+    "id": 3,
+    "name": "Hollow Knight",
+    "stock": 30,
+    "price": 15,
+    "image": "img/hollow-knight.webp",
+    "developer": "Team Cherry",
+    "year": 2017
+  },
+  {
+    "id": 4,
+    "name": "Inscryption",
+    "stock": 0,
+    "price": 30,
+    "image": "img/inscryption.webp",
+    "developer": "Daniel Mullins",
+    "year": 2021
+  },
+  {
+    "id": 5,
+    "name": "Stardew Valley",
+    "stock": 25,
+    "price": 15,
+    "image": "img/stardew-valley.webp",
+    "developer": "ConcernedApe",
+    "year": 2016
+  },
+  {
+    "id": 6,
+    "name": "The Textorcist",
+    "stock": 40,
+    "price": 15,
+    "image": "img/textorcist.webp",
+    "developer": "Morbidware",
+    "year": 2019
+  },
+  {
+    "id": 7,
+    "name": "Baldur's Gate 3",
+    "stock": 0,
+    "price": 60,
+    "image": "img/baldurs-gate.webp",
+    "developer": "Larian Studios",
+    "year": 2023
+  },
+  {
+    "id": 8,
+    "name": "Red Dead Redemption 2",
+    "stock": 5,
+    "price": 30,
+    "image": "img/rdr2.webp",
+    "developer": "Rockstar Games",
+    "year": 2018
+  },
+  {
+    "id": 9,
+    "name": "Balatro",
+    "stock": 0,
+    "price": 20,
+    "image": "img/balatro.webp",
+    "developer": "LocalThunk",
+    "year": 2024
+  },
+  {
+    "id": 10,
+    "name": "Enter the Gungeon",
+    "stock": 10,
+    "price": 15,
+    "image": "img/enter-the-gungeon.webp",
+    "developer": "Dodge Roll",
+    "year": "2016"
+  }
+]
