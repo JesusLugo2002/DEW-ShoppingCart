@@ -1,39 +1,51 @@
-# DEW-ShoppingCart
+<div align=justify>
 
-This template should help get you started developing with Vue 3 in Vite.
+# :shopping: Shopping Cart
 
-## Recommended IDE Setup
+A simple shopping cart application of a videogame online shop, made with Vite + Vue.js.
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+This project was created as homework for the Client-side development subject of my Web Application Development formation.
 
-## Type Support for `.vue` Imports in TS
+## :wrench: Technologies
 
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) to make the TypeScript language service aware of `.vue` types.
+- `HTML`
+- `CSS`
+- `Bootstrap`
+- `Typescript`
+- `Vite`
+- `vue.js`
+- `pinia`
+- `eslint`
+- `prettier`
 
-## Customize configuration
+## :star: Features
 
-See [Vite Configuration Reference](https://vite.dev/config/).
+1. **Add items to your shopping cart** by clicking in it's buy button.
+2. **A limited stock exists!** When a product don't have stock, the client can't buy it (naturally), and when a client buy one, that reduce the stock.
+3. **Use `vue-router` for another view implementation:** the shop and the cart views are separated, and linked by the `vue-router`, configurated to implements an effective way to show differents views in a Single Page Application like this.
 
-## Project Setup
+## :book: What I learned
 
-```sh
-npm install
-```
+### What is a front-end framework and how Vue works.
 
-### Compile and Hot-Reload for Development
+With this project I received an introduction to front-end frameworks and I started with `Vue.js`, focused on the Single Page Application (SPA) creation.
 
-```sh
-npm run dev
-```
+### Typescript vs. Javascript
 
-### Type-Check, Compile and Minify for Production
+I learned the major game changer feature that Typescript offer against the Javascript: the strict type checking that catches error during development, significantly improving the code quality and reducing bugs.
 
-```sh
-npm run build
-```
+### Reactivity fundamentals
 
-### Lint with [ESLint](https://eslint.org/)
+I understood how Vue wrap the data inside JavaScript proxies, which acts as a "*middleware*" that handle getters and setters when the application need to get or set a value. When that element changes, use a new Virtual DOM to compare with the old DOM and replace only the changed section, enhancing application performance. 
 
-```sh
-npm run lint
-```
+### Load data automatically with `onMounted` hook
+
+I used the `onMounted` hook that allows me to execute code when a Vue component renders, handling the lifecycle of the application.
+
+### Handle global data access with `pinia` store
+
+I implemented a global data storage using the `pinia` package that provide an element called `store`, used for keep accesible in any point of the application the data contained.
+
+## :eyes: Demostration
+
+</div>
