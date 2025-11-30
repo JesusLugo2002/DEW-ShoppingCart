@@ -48,4 +48,16 @@ I implemented a global data storage using the `pinia` package that provide an el
 
 ## :eyes: Demostration
 
+<div align=center>
+
+![shop](assets/shop.png)
+
+*Shop view*
+
+![cart](assets/cart.png)
+
+*Cart view*
+
+</div>
+
 </div>
